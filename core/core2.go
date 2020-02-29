@@ -18,4 +18,5 @@ type Domain struct {
 	Skipped      bool          `bson:",omitempty"`
 	LastChecked  time.Time     `bson:",omitempty"`
 	Headers      []Header      `bson:",omitempty"`
+	Body         string
 }
